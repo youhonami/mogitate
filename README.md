@@ -60,10 +60,10 @@ php artisan db:seed
 
 ## ER 図
 
-![alt](.drawio.png)
+![image](https://github.com/user-attachments/assets/61ec248d-0215-42c7-a88e-f410325ac9be)
+
 
 ## URL
 
 - 開発環境：http://localhost/products
 - phpMyAdmin:：http://localhost:8080/
-# mogitate
