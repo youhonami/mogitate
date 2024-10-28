@@ -1,0 +1,159 @@
+/* 全体スタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* ヘッダー */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header__heading {
+    font-weight: 300;
+    font-size: 28px;
+    color: #333;
+}
+
+/* タイトル */
+.product__title,
+.form__title {
+    color: #444;
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+/* 商品情報 */
+.product__price,
+.product__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product__image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn--back {
+    background-color: #6c757d;
+}
+
+.btn--back:hover,
+.btn--submit:hover {
+    background-color: #333;
+}
+
+.btn--submit {
+    background-color: #007bff;
+    margin-top: 10px;
+}
+
+/* 削除ボタン */
+.delete-form__button .fas.fa-trash-alt {
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}
+
+/* 更新フォーム */
+.update-form {
+    margin-top: 20px;
+}
+
+.form-group__label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group__input,
+.form-group__textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.form-group__input:focus,
+.form-group__textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.no-resize {
+    resize: none;
+}
+
+/* エラーメッセージ */
+.form__error {
+    color: #e63946;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+/* 季節情報 */
+.product__seasons {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+.product__seasons p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.product__seasons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product__seasons li {
+    display: inline-block;
+    background-color: #e3f2fd; /* 背景色を少し青みがかった色に */
+    color: #007bff; /* テキストカラーをブルーに */
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
