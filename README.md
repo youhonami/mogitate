@@ -67,3 +67,4 @@ php artisan db:seed
 
 - 開発環境：http://localhost/products
 - phpMyAdmin:：http://localhost:8080/
+# test-mogitate
